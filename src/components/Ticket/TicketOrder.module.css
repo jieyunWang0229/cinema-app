@@ -1,0 +1,124 @@
+.tkocontainer{
+    width: 22.5vw;
+    margin-left: 2.5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 60vh;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: inherit;
+}
+
+.tkoheader{
+    font-weight: 600;
+    color: white;
+    width: 90%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.501);
+   
+}
+
+.tkocontent{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.tkotkgroup{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0.3rem;
+}
+
+.tkotk{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.tkotk td{
+    width: 30%;
+    text-align: center;
+}
+
+.tkoseats{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    height: 4rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 3vh;
+}
+
+.tkoseatsheader{
+    font-weight: 500;
+}
+
+.tkoseatsicon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tkoseatsicon span{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+.tkopricesummary{
+   margin-top: 5vh;
+   padding-left: 5%;
+   padding-right: 5%;
+   display: flex;
+   justify-content: space-between;
+   font-weight: 600;
+}
+
+.tkobtn{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tkobtn button{
+   border: none;
+   padding: 0.5rem 1rem;
+   border-radius: 0.3rem;
+   cursor: pointer;
+   box-shadow: 0px 3px 10px rgba(241, 241, 241, 0.3);
+}
+
+.dark{
+    background: rgb(255, 255, 255, 0.5);
+}
+
+
+@media screen and (max-width: 767px) {
+    .tkocontainer{
+         width: 90%;
+         margin-left: 0;
+         margin-bottom: 5vh;
+         padding-left: 2vw;
+         padding-right: 2vw;
+    }
+     
+ }
+

@@ -1,0 +1,34 @@
+.sessiontime{
+  width: 10rem;
+  height: 3rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  border: 1.5px solid rgba(255, 255, 255, 0.58) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sessiontime a{
+    text-decoration: none;
+    font: inherit;
+    color: white;
+}
+
+.sessiontime:hover{
+   background-color: white;
+}
+
+.sessiontime:hover a{
+    color: black;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .sessiontime{
+    width: 5rem;
+    margin-bottom: 3vh;
+  }
+}

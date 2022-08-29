@@ -1,0 +1,8 @@
+.timedisplay{
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    margin-left: 0.5rem;
+}

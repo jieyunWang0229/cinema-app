@@ -1,0 +1,187 @@
+
+.paymentcontainer{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 60vh;
+    color: white;
+    font-family: inherit;
+}
+
+.paymentheader{
+    font-weight: 600;
+    color: white;
+    width: 90%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.501);
+}
+
+.paycontent{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    margin-top: 5vh;
+    height: 80%;
+}
+
+.paygroup{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3vh;
+    width: 80%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+}
+.paygroupsmall{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+}
+
+.paygroup label{
+   display: inline-block;
+   width: 30%; 
+}
+
+.paygroup input{
+    display: inline;
+    width: 40%; 
+    padding-left: 0.8rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+
+ }
+
+ .paygroup p{
+    display:inline-block;
+    font-size: 0.8rem;
+    color: red;
+ }
+ .paygroupsmallitem{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .paygroupsmallitem label{
+    display: inline-block;
+ }
+ 
+ .iteminput{
+    margin-top: 0.3rem;
+    display: flex;
+    width: 100%;
+ }
+
+ .iteminput input{
+    display:inline-block;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 40%;
+    margin-right: 0.5rem; 
+    height: 1.5rem;
+}
+ 
+
+ .paygroupsmallitem p{
+    display:inline-block;
+    font-size: 0.8rem;
+    color: red;
+ }
+
+ .paybtn{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 12vh;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .paybtn button{
+    width: 30%;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+ }
+
+ .paybtn button:hover{
+    background-color: rgba(255, 255, 255);
+    color: black;
+   
+ }
+
+ @media screen and (max-width: 767px) {
+   .paymentcontainer{
+      width: 90%;
+      margin-bottom: 3vh;
+      height: max-content;
+   }
+
+   .paycontent{
+      margin-top: 3vh;
+      height: 90%;
+  }
+   .paygroup{
+      flex-direction: column;
+      margin-bottom: 1vh;
+   }
+   .paygroup label{
+      width: 90%; 
+      margin-bottom: 0.5vh;
+   }
+
+   .paygroup input{
+     
+      width: 90%;
+   }
+   .paygroupsmall{
+      margin-top: 1vh;
+      width: 90%;
+      height: max-content;
+      flex-wrap: wrap;
+  }
+  .paygroupsmallitem{
+   width: 45%;
+   }
+   .paybtn button{
+      width: 50%;
+      border: none;
+      font-size: 1.2rem;
+      padding: 0.5rem;
+      border-radius: 0.3rem;
+      cursor: pointer;
+      font-weight: 600;
+      font-family: inherit;
+      background-color: rgba(255, 255, 255, 0.5);
+      color: white;
+   }
+   
+
+ }

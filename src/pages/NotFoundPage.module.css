@@ -1,0 +1,8 @@
+.text{
+    align-self: flex-start;
+    color: white;
+    font-size: 2rem;
+    margin-top: 25vh;
+    margin-left: 10vw;
+    text-align: left;
+}

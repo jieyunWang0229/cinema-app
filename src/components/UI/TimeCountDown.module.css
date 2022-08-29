@@ -1,0 +1,14 @@
+.timecontainer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 5vw;
+    top: 20vh;
+}
+
+.timecontainer{
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: white;
+}

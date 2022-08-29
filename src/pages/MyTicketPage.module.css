@@ -1,0 +1,29 @@
+.ticketscontainer{
+    display:  flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+.ordercontainer{
+    margin-bottom: 5vh;
+    padding: 3vh 1vw;
+    border: 2px solid white;
+    border-radius: 2rem;
+    width: 78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .ticketscontainer{
+
+       align-items: center;
+    }
+    
+    .ordercontainer{
+        width: 80%;
+        padding: 3vh 3vw;
+    }
+}

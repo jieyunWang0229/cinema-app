@@ -1,0 +1,6 @@
+.ticketcontainer{
+    padding: 5vh 5vw;
+    font: inherit;
+    display: flex;
+    flex-direction: column;
+}

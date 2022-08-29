@@ -1,0 +1,35 @@
+.sliderscontainer{
+    margin-top:25vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    width: 70vw;
+    overflow: hidden;
+  
+
+   
+}
+.slideshow{
+    width: 100%;
+    white-space: nowrap;
+    transition: ease 1000ms;  
+}
+
+.slide{
+    display: inline-block; 
+    
+}
+
+.slide img{
+   width: 100%;
+   border-radius: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .sliderscontainer{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width: 90vw;
+
+    }
+
+}

@@ -1,0 +1,28 @@
+.seat {
+    height: 30px;
+    width: 2.5rem;
+    background-color: rgba(154, 154, 154, 0.5);
+    margin: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+}
+
+.reserved{
+    background-color: rgba(183, 169, 249, 0.5);
+    cursor: none;
+}
+
+.selected{
+    background-color: rgba(255, 0, 187, 0.5);
+}
+
+.seat.close {
+    cursor: none;
+}
