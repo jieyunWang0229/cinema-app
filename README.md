@@ -27,6 +27,6 @@ Browsing on showing movies and dedatil infomation. Every movie has its own sessi
 Users can choose seats from movie detail info page. Website talking to backend every 5 minute to update the seats information, incase others booking the seats at the same time. If the selected seat are booked by the other user before checkout process, user would receive notification when submit the chosen seats.
 
 
-#### Buy tickest
+#### Buy tickets
 Movie tickets will gengerate with barcode after user payment, and users can find tickets in thier tickes page.
 
